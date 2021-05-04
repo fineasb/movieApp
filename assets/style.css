@@ -31,6 +31,7 @@ body{
 
     .search i{
         margin-left: -10px;
+        outline:none;
     }
 
     #collections{
@@ -165,6 +166,10 @@ img{
     width: 390px;
     height: 450px;
     border-radius: 5px;
+}
+
+.search i {
+    outline:none;
 }
 
 
