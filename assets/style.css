@@ -27,6 +27,7 @@ body{
     .search{
         margin-top: 10px;
         display: flex;
+        margin-left: -45px;
     }
 
     #collections{
