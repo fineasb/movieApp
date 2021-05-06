@@ -40,7 +40,7 @@ body{
         flex-direction: column;
     }
 
-    #image1, #image2, #image3, #image4 {
+    #image, #image, #image, #image {
         display: flex;
         justify-content: center;
     }
@@ -79,7 +79,7 @@ body{
         flex-direction: column;
     }
 
-    #image1, #image2, #image3, #image4 {
+    #image, #image, #image, #image {
         display: flex;
         justify-content: center;
     }
@@ -101,7 +101,7 @@ body{
     }
 
     
-    #image1, #image2, #image3, #image4 {
+    #image, #image, #image, #image {
         display: flex;
     }
     
@@ -125,14 +125,14 @@ body{
     }
 
     
-    #image1, #image2, #image3, #image4 {
+    #image, #image, #image, #image {
         display: flex;
     }
     
     img{
         display: flex;
-        width: 300px;
-        height: 380px;
+        width: 390px;
+        height: 500px;
         border-radius: 5px;
     }
 
