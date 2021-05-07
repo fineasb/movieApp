@@ -20,13 +20,13 @@
 
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand mx-3" href="#">
-        <img src="assets/logo.svg" width="50" height="20" class="my-auto" alt="">
+        <img class="logo" src="assets/logo.svg" width="50" height="20" class="my-auto" alt="">
     </a>
     <button class="navbar-toggler mx-3" type="button" data-toggle="collapse" data-target="#navbarFineas" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarFineas">
-        <ul class="navbar-nav mx-4">
+        <ul id="lista" class="navbar-nav mx-4">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
           </li>
@@ -36,8 +36,8 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Pricing</a>
           </li>
-          <li class="nav-item">
-            <form class="form-inline d-flex pb-3">
+          <li id="cool" class="nav-item">
+            <form class="form-inline d-flex pb-3 pt-3">
                 <input style="border-top-right-radius: 0px; border-bottom-right-radius: 0px;" class="form-control" type="search" placeholder="Search" id="search-box" aria-label="Search">
                 <button style="border-top-left-radius: 0px; border-bottom-left-radius: 0px; " class="btn btn-outline-warning my-sm-0" onclick="searchable()" id="searchbtn"><i class="fas fa-search"></i></button>
             </form>
@@ -46,16 +46,10 @@
     </div>
   </nav>
 
-    
+  <section id="collection"></section>
 
 
-    <!-- <div class="app_wrap">
-        <header>
-            <input type="text" class="search-box" placeholder="Search....">
-            <button onclick="searchable()" class="search"><i class="fas fa-search"></i></button>
-        </header>
-        <section id="collections"></section>
-    </div> -->
+
     <script src="./assets/app.js"></script>
 </body>
 </html>
