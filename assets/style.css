@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgba(148, 148, 148, 0.376);
+    background-color: rgb(0, 0, 0) !important;
 }
 
 ::selection {
