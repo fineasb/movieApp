@@ -42,7 +42,7 @@ function render(value){
     const movies = value.results;
     return movies.map(el=> {
         if(el.poster_path){
-        return `<div id="lol"><p id="title">Your Random movie is:</p>
+        return `<div id="lol"><p id="title" style="text-align:center">Your Random movie is:</p>
         <img src='${IMAGE_URL + el.poster_path}' alt="Girl in a jacket" width="500" height="600"></div>`
     }});
 }
